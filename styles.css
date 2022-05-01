@@ -5,11 +5,11 @@ body{
 /* NAVIGTION */
 .navbar-brand{
 	font-family: Work Sans,sans-serif;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 }
 .nav-link{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-family: Georgia;
 }
 
@@ -24,20 +24,11 @@ body{
   height: 3.5rem;
  }
 
-@media(max-width:1036px) {
-  .navbarStyle{
-  	text-align: center;
-  }
-	}
-
-
-
-
 
 
 #about{
   background-color:#1f2833;
-  padding: 7% 15%;
+  padding: 8% 15%;
 }
 .container-about{
     padding-top:4rem;
@@ -62,7 +53,10 @@ h2{
 }
 p{
   color:#c5c6c7;
-  font: normal 16px/1.5 tabular-numbers,Georgia;
+  font: normal 1.2rem/1.5 tabular-numbers,Georgia;
+}
+a {
+  text-decoration:none;
 }
 
 .profileCol{
@@ -89,6 +83,10 @@ p{
   padding-top: 7%;
   padding-bottom: 7%;
 }
+.headingc{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
 .carousel-item{
   padding:2% 15%;
 }
@@ -99,7 +97,7 @@ p{
 #contact{
   background-color:#45a29e;
   text-align: center;
-  padding:7% 15%;
+  padding:8% 17%;
 }
 
 .contactphone{
@@ -109,7 +107,8 @@ p{
 .contactparagraph {
   color: #1f2833;
   text-align: left;
-  padding: 1rem 6rem;
+  padding: 4rem 3.6rem;
+  font-size: 1.2rem;
 }
 .mailto{
   color: #1f2833;
@@ -122,6 +121,40 @@ p{
 .contactcol{
   padding: 2rem;
 }
+
+
+@media(max-width:1036px) {
+  .navbarStyle{
+  	text-align: center;
+  }
+  .nav-link{
+    font-size: 1.9rem;
+    font-family: Georgia;
+  }
+  p.aboutparagraph{
+    color:#c5c6c7;
+    font: normal 1.7rem/1.5 tabular-numbers,Georgia;
+  }
+
+  p.contactparagraph {
+    font-size: 1.7rem;
+  }
+  #about {
+    background-color: #1f2833;
+    padding: 12% 15%;
+}
+
+#company {
+  padding-top: 11%;
+  padding-bottom: 11%;
+}
+
+#contact {
+  padding: 11% 17%;
+}
+
+	}
+
 
 @media (max-width:991px) and (min-width:770px) {
   .profileimage{
@@ -149,6 +182,7 @@ p{
 .btnCarousel{
   line-height: 1.5;
   font-size: 1.8rem;
+  margin-top: 1rem;
 }
 
 /* LOADING */
@@ -167,9 +201,14 @@ div.box2{
 h3.loadhead{
 	margin-top: 0 !important;
   color:#fff; 	
+
+  
   /* color:#005063;  */
 }
 
+/* .crow{
+  padding-top: 1rem;
+} */
 
 /* Used for chaning the color of carousel arrow */
  /* .carousel-control-next-icon {
