@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+  font-family: "Georgia";
+}
+/* NAVIGTION */
+.navbar-brand{
+	font-family: Work Sans,sans-serif;
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+.nav-link{
+	font-size: 1.4rem;
+	font-family: Georgia;
+}
+
+
+.nav-item{
+	padding: 0 18px;
+}
+
+
+.navicon{
+  width: 5rem; 
+  height: 3.5rem;
+ }
+
+
+
+#about{
+  background-color:#1f2833;
+  padding: 8% 15%;
+}
+.container-about{
+    padding-top:4rem;
+}
+
+h1{
+  color:#66fcf1;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-top:2rem;
+
+      font: bold  3rem/1.5 Work Sans,sans-serif;
+
+      /* font: normal 16px/1.5 tabular-numbers,Georgia; */
+
+}
+h2{
+  color:#1f2833;
+  font-family: Georgia;
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+p{
+  color:#c5c6c7;
+  font: normal 1.2rem/1.5 tabular-numbers,Georgia;
+}
+a {
+  text-decoration:none;
+}
+
+.profileCol{
+  text-align: center;
+}
+
+.profileimage{
+  width: 100%;
+  padding-top:2rem;
+}
+
+.branding{
+    color:#66fcf1 !important;
+}
+/* COMPANY */
+
+/* #companyNavigation{
+  background-color:#c5c6c7;
+  padding-bottom: 1rem;
+} */
+#company{
+  background-color:#c5c6c7;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.headingc{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.carousel-item{
+  padding:2% 15%;
+}
+
+.company-image{
+  width: 100%;
+}
+#contact{
+  background-color:#45a29e;
+  text-align: center;
+  padding:8% 17%;
+}
+
+.contactphone{
+  padding-right: 4rem;
+}
+
+.contactparagraph {
+  color: #1f2833;
+  text-align: left;
+  padding: 4rem 3.6rem;
+  font-size: 1.2rem;
+}
+.mailto{
+  color: #1f2833;
+  font-size: 2em ;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-right: 5.0rem;
+
+}
+.contactcol{
+  padding: 2rem;
+}
+
+
+@media(max-width:1036px) {
+  .navbarStyle{
+  	text-align: center;
+  }
+  .nav-link{
+    font-size: 1.9rem;
+    font-family: Georgia;
+  }
+  p.aboutparagraph{
+    color:#c5c6c7;
+    font: normal 1.7rem/1.5 tabular-numbers,Georgia;
+  }
+
+  p.contactparagraph {
+    font-size: 1.7rem;
+  }
+  #about {
+    background-color: #1f2833;
+    padding: 12% 15%;
+}
+
+#company {
+  padding-top: 11%;
+  padding-bottom: 11%;
+}
+
+#contact {
+  padding: 11% 17%;
+}
+
+	}
+
+
+@media (max-width:991px) and (min-width:770px) {
+  .profileimage{
+    width: 60%;
+    padding-top:2rem;
+  }
+  .container-about{
+      padding-top:3rem;
+  }
+}
+ .carouselIcon{
+   width: 5rem;
+   height: 6rem;
+   /* background-color:#1f2833 ; */
+ }
+
+/* used for hiding defualt carousel arrow and giving a color to the carousel span text and overider icon */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none;
+  color: #1f2833;
+  font-size: 2.5rem;
+}
+
+.btnCarousel{
+  line-height: 1.5;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+/* LOADING */
+.companydiv{
+	position: relative;
+	
+}
+
+div.box2{
+	position: absolute;
+	left: 46%;
+	top: 50% ;
+	display: none;
+}
+
+h3.loadhead{
+	margin-top: 0 !important;
+  color:#fff; 	
+
+  
+  /* color:#005063;  */
+}
+
+/* .crow{
+  padding-top: 1rem;
+} */
+
+/* Used for chaning the color of carousel arrow */
+ /* .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='1f2833' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+ }
+
+ .carousel-control-prev-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='1f2833' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+ } */
