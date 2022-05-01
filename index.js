@@ -1,5 +1,6 @@
 
-    $('.nav-item').click(function(){
+   
+   $('.nav-item').click(function(){
      $('.navbar div').removeClass('show');
      document.querySelector("span.navicon").classList.add("navbar-toggler-icon");
   document.querySelector("span.navicon").classList.remove("fa-solid");
@@ -26,4 +27,11 @@ setTimeout(function(){
 },100);
 })
 
- 
+function alertusers() {
+    alert("Use the Mail, Phone Number or LinkedIn to contact us");
+}
+
+// $(document).on('click','div.fbuser',function(){
+//     alert("Use Mail, phone number or LinkedIn <br> to contact us");
+//  });
+
